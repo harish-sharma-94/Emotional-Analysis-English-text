@@ -1,0 +1,1234 @@
+@relation 'classification file'
+
+@attribute Headline string
+@attribute label_class {anger,disgust,fear,joy,sadness,surprise}
+
+@data
+'BellSouth says profit rises 30\% on cingular earnings',joy
+'Secret hotels in Irish countryside',surprise
+'Blair: Terror battle will be long',disgust
+'UN nuclear watchdog slashes Iran aid',anger
+'Roddick, Murray score in San Jose',joy
+'Yankee pitcher\'s pilot log found',surprise
+'Managua Journal: Hold the Mojito and Margarita, Nicaragua Has el Macu',anger
+'New Orleans violence sparks tourism fears',disgust
+'On road to Kosovo independence, a warning: go slow',disgust
+'10 die in 22-hour Kashmir standoff',disgust
+'Hastert sorry for scandal but not quitting',sadness
+'Obama announces presidential bid',joy
+'Some cocoa may improve brain blood flow',joy
+'A film star in Kampala, conjuring aminos ghost',disgust
+'Apple to Vista upgraders: \'Wait\'',surprise
+'South Africa mourns Adelaide Tambo',sadness
+'\'WarioWare,\' Wii make perfect fit',joy
+'MS Adds Office 2007 to Vista Coupon Program',joy
+'Vaccine mandate upsets legislators',anger
+'Doctors Seeing Patients Who Think They\'re Internet Addicted',sadness
+'Goetschl ends Austrian win drought',joy
+'Apple trademark dispute settled',joy
+'Protesters end strike as Nepal PM concedes demands',joy
+'Stinky flower mystery solved',joy
+'Libby prosecutors await judge\'s rulings',sadness
+'Court TV: Accused killer tells jury a love story',surprise
+'Madonna files adoption papers in Malawi',joy
+'Breakup rings find new homes',sadness
+'Immigrants and French Reach Deal in Standoff',joy
+'Microsoft to release next generation phone',joy
+'Sudan tells United Nations envoy to leave in 72 hours',surprise
+'\'Ronnie\' and Eto\'o hug and make up',joy
+'China considers Eurobond reserves',joy
+'Study: Africa\'s Internet gap getting wider',sadness
+'YouTube founders split $650M payout',joy
+'Study: Female seals picky about mates',surprise
+'Russia plans major military build-up',disgust
+'Peretz orders IDF to respond with force to north border attacks',anger
+'Millionaire secret Santa dies',sadness
+'Indonesian with bird flu dies',sadness
+'Time to book your cruise',joy
+'Review: virtual \'American Idol\' hits right notes',joy
+'England include Giles in WC squad',joy
+'Gunman \'was Srebrenica survivor\'',surprise
+'New Zealand unlikely to allow crippled Japanese whaler',sadness
+'Canete wins inaugural Joburg Open',joy
+'With YouTube, Grad Student Hits Jackpot Again',joy
+'Nokia 5300 Xpress Music',joy
+'Astronaut may have buckled under stress',sadness
+'Storm leaves behind major travel troubles',sadness
+'Putin: U.S. force fostering nuke ambitions',disgust
+'Davydenko out as seeds scattered',surprise
+'Bread-Heavy Diet Linked to Kidney Cancer',disgust
+'Marathon victory comes at heavy cost',joy
+'That\'ll cost ya',anger
+'NFL team\'s fan of the year: \'Flag Lady\'',joy
+'Founder returns to Dell helm',joy
+'Anna Nicole claimant: A prince of a guy?',surprise
+'Thomas Cook to merge with MyTravel',joy
+'Luxury digs in South Carolina\'s Lowcountry',joy
+'Venezuela, Iran fight U.S. dominance',anger
+'New York City may ban iPods while crossing street',surprise
+'Ice storm brings chaos in U.S.',disgust
+'No intention of war with Iran, US says',joy
+'No buyer in sight for Napster',sadness
+'An Elephant Crackup?',sadness
+'Higley, Gonzalez lead in Malaysia',joy
+'5,000 flee plant fire',disgust
+'For women, aspirin a day could keep stroke away',joy
+'Was Prince\'s super show too revealing?',surprise
+'Across Europe, Worries on Islam Spread to Center',sadness
+'Tourist spot resists gravity, but not progress',sadness
+'Barbaro\'s legacy: saving other horses',joy
+'London market a shopping, dining haven',joy
+'Who is Prince Frederic von Anhalt?',surprise
+'Indonesian bird flu deaths hit 61',sadness
+'Media cited for showing girls as sex objects',anger
+'Beckham to L.A.: For the game not fame',joy
+'False alarm at Canadian embassy in Paris',disgust
+'Village buried by 100 inches of snow',sadness
+'A personal plea for HPV vaccine plan',joy
+'Damaged Japanese whaling ship may resume hunting off Antarctica',sadness
+'Kidnapped AP photographer freed in Gaza',disgust
+'ASEAN talks end on energy-security',joy
+'Global Sludge Ends in Tragedy for Ivory Coast',sadness
+'Science panel calls global warming unequivocal',disgust
+'Dispute over Iraqi cleric, said to have gone to Iran',anger
+'The science of love ... and lust',joy
+'At Libby trial, Russert of NBC gives and gets',disgust
+'India decries \'an act of sabotage\'',disgust
+'\'Cravings\' still there, sez Tara',joy
+'Hamas, Fatah return to unity gov\'t talks in Mecca',joy
+'Europe retain trophy with big win',joy
+'Bigger, more aggressive rats infesting UK',disgust
+'Eye on cosmos is lost to short circuit on hubble',sadness
+'Stanford study warns of Internet addiction',disgust
+'James Brown\'s 5-year-old son left out of will',surprise
+'Another death at Georgia Aquarium',sadness
+'Start late, retire rich',joy
+'Snow\'s too deep even for snowmobiles',surprise
+'Believing scripture but playing by science\'s rules',surprise
+'Brown not buried as estate issues loom',sadness
+'Russia warns US against missile bases in East Europe',disgust
+'\'Grey\'s,\' \'Pirates\' lead People\'s Choice',joy
+'Fire extinguisher part of Tennessee execution kit',surprise
+'Cleric Said to Lose Reins Over Part of Iraqi Militia',sadness
+'Radical cleric al-Sadr in Iran, U.S. insists',disgust
+'Cocoa could be antidote to age-related diseases, says new study',joy
+'Sony apologizes for battery recall',joy
+'Marijuana helps ease HIV nerve pain, study says',surprise
+'Women Face Greatest Threat of Violence at Home, Study Finds',fear
+'EU will urge China to go green',joy
+'Marine killed in fighting west of Baghdad',sadness
+'Prestige has magic touch',joy
+'St. Louis poised for entertainment upswing',joy
+'Stinky but true: men\'s sweat is made for love',surprise
+'Panel issues bleak report on climate change',disgust
+'Ex-Virginia gov not running for president',surprise
+'We were \'arrogant and stupid\' over Iraq, says US diplomat',sadness
+'Move to ban iPods from crossing the street',surprise
+'Budapest calm after night of violent protests',anger
+'U.S. opens door for Iraqi refugees',joy
+'Basics: a mammal in winter with a furnace of her own',surprise
+'Rescued boys parents hail \'miracle\'',joy
+'Firefox 2.0 hits the Web',joy
+'Siesta cuts risk of heart disease death, study finds',surprise
+'Will North Korea honor pledge this time?',joy
+'Two men killed by London tube train',sadness
+'In rigorous test, talk therapy works for panic disorder',joy
+'Kate is marrying Doherty',joy
+'Walters on Trump: \'Poor, pathetic man\'',sadness
+'Microsoft supports OpenID authentication standard',joy
+'Bernhard set to leave Volkswagen',sadness
+'Deputy health minister arrested in US-Iraqi raid',sadness
+'Iran leader pays Nicaragua a visit',surprise
+'Royal rescues presidential hopes with commanding performance',joy
+'Man rides stationary bike for 85 hours',surprise
+'Russian ship sinks, 18-member crew missing',sadness
+'Toyota\'s Scion parks in Second Life',surprise
+'Filipino woman kidnapped in Nigeria',disgust
+'Investigation of child porn site hits 77 nations USA Today',fear
+'PS3 pricey but impressive',joy
+'Golden Globes on their way',joy
+'Frantic 911 call in Ryan O\'Neal case',surprise
+'Glamour -- and \'Borat\' -- at Golden Globes',joy
+'Kerry blasts \'escalation of misguided war\'',anger
+'Work starts on Arctic seed vault',joy
+'Kentucky seeks alcohol huffing ban',joy
+'Bill Gates and Craig Mundie: vista is Secure, employees are not',surprise
+'Christian values guide Dungy and the Colts',joy
+'Passing exchange becomes political flashpoint',anger
+'Svindal claims are golden double',joy
+'Taliban leader killed in airstrike',sadness
+'Porn ring scandal reaches Australia',fear
+'Ex-Border Patrol agent beaten in prison',sadness
+'Shareholders sue Apple',anger
+'Sale of Chrysler possible',joy
+'Injured Sarwan to miss one-dayers',sadness
+'Hicks first in line for trial, Bush says',disgust
+'Travel+Leisure: Next island hot spot: St. Lucia',joy
+'Sexualisation \'harms\' young girls',anger
+'UK letter bombs may be from extremist drivers',disgust
+'Toshiba Portege R400',joy
+'Abbas rejects temporary state',sadness
+'Retinal implant helping blind people see again',joy
+'Good news for slackers: Naps may cut risk for heart problems',joy
+'\'Hannibal\' bites the big one',surprise
+'Ice storm coating Midwest',disgust
+'Peter Jackson will never work for me again',anger
+'Ex-pastor gets death sentence',sadness
+'Research supports medicinal marijuana',surprise
+'Action games improve eyesight',surprise
+'Mexican navy helps in hunt for U.S. engineer',joy
+'Review: PS3 pricey but impressive',joy
+'Madrid bombings trial begins',disgust
+'Subway collapse caught on camera',sadness
+'Machinery orders drive Asia upward',joy
+'\'Grey\'s,\' \'Betty,\' \'Scrubs\' get boost',joy
+'Lily Allen wins web music award',joy
+'Asif returns with four-wicket haul',joy
+'Thousands line up to get late flu shots',disgust
+'Top Colombia official resigns',sadness
+'Thousands tested after Russian H5N1 outbreak',disgust
+'Bird watchers flock to see rare owl',joy
+'Study: napping might help heart',joy
+'Vietnam becomes WTO\'s 150th member',joy
+'Israel\'s Peretz urges halt to contentious Jerusalem construction',anger
+'Google unveils do-it-yourself search engine',joy
+'Kim Jong-il bans Japanese cars in North Korea',surprise
+'For women, nothing\'s like the smell of men\'s sweat',surprise
+'Participant in water-drinking contest dies',sadness
+'Global web of suspects in child-rape download',anger
+'U.S. Weighs Sanctions Against North Korea',anger
+'Telecoms giant slashes 12,500 jobs',sadness
+'A Picture and A Thousand Words',anger
+'Area should get 3-5 inches of snow today',joy
+'Enron boss gets 24-year sentence',sadness
+'Punter charged with stabbing asks to live outside state',anger
+'Howard presses Bush on terror suspect',disgust
+'17th-Century Remedy; 21st-Century Potency',surprise
+'7 GOP senators to force debate on troops in Iraq',joy
+'Presto! He\'s Batman, then magic man',surprise
+'Go ahead, take a nap, science says',surprise
+'Parachutist dies at bridge-jump festival',sadness
+'Nicole Kidman asks dad to help stop husband\'s drinking',sadness
+'Cisco sues Apple over iPhone name',anger
+'Baby born on turnpike after dad misses exit',surprise
+'Blog: Here come the Globes!',joy
+'Experts offer advice on salmonella',joy
+'Bangladesh ends curfew amid unrest',joy
+'In the Rockies, pines die and bears feel it',sadness
+'Militants attack U.S. base in Iraq',disgust
+'Ice storm cripples central U.S.',disgust
+'TV game shows go interactive',joy
+'Reports: Harvard set to name first female president',joy
+'Werder make 10-man Ajax pay price',joy
+'In God\'s Name: Religion-Based Tax Breaks: Housing to Paychecks to Books',joy
+'IDF shells Lebanese Army positions across northern border',disgust
+'Barack Obama formally announces bid for president',joy
+'Carphone Warehouse\'s mixed signals',surprise
+'Shoplifters\' choice: Police or T-shirt of shame',surprise
+'G7: Yen skates by, yuan singled out',sadness
+'Murphys rule box office with \'Norbit\'',joy
+'Freed Muslim terror suspect says Britain is \"police state\"',disgust
+'Congolese soldiers riot, loot over pay issue',anger
+'Beyonce new SI bikini cover girl',joy
+'Bear cub returned to the wilderness',joy
+'Iran to strike US interests if attacked',disgust
+'EU condemns \'illegal\' CIA flights',anger
+'Leo battles himself',joy
+'Rwanda mulling 3-kid limit for families',joy
+'Bangladesh ferry sinks, 15 dead',sadness
+'Storms kill, knock out power, cancel flights',disgust
+'Hatton hands back IBF title again',joy
+'Report criticises US press freedoms',anger
+'Sudan urges UN to replace its special envoy',surprise
+'Teacher in Hiding After Attack on Islam Stirs Threats',disgust
+'10 kidnapped at Nigeria oil base',disgust
+'Rio De Janeiro journal: drawing lines across the sand, between classes',sadness
+'City sets up ice storm shelters',disgust
+'Germany agonizes over a brain drain',sadness
+'Study finds gritty air raises heart disease risk in older women',surprise
+'China: Cheney shores up the trilateral alliance',joy
+'Kuerten returns to winners\' circle',joy
+'Gunmen kill 11 in Iraq TV raid',sadness
+'Naps are great for chaps',joy
+'Did Viking Probes Miss Life on Mars?',surprise
+'Iran and Nicaraguan leaders meet',joy
+'China urges UN action on N Korea',disgust
+'Up to 22 inches of snow in forecast',surprise
+'Real Mallorca rock leaders Sevilla',joy
+'Frustration rises as North Korea nuclear talks stall',disgust
+'Sea search for missing Microsoft scientist',sadness
+'Genghis Khan Beer? Mongolia Grimaces',anger
+'Cooked chicken breasts join tainted-food recalls',disgust
+'Super Bowl ads of cartoonish violence, perhaps reflecting toll of war',sadness
+'Personal health: for teenagers, the car is the danger zone',disgust
+'Catania punished for fan violence',sadness
+'Male sweat raises female hormones',surprise
+'Fitness: Bodies in Motion, Clean and Sober',joy
+'Roddick overcomes Federer in final',joy
+'Russian ship sinks in Pacific',sadness
+'Latest updates on world\'s top stories',disgust
+'Prehistoric lovers found locked in eternal embrace',surprise
+'Scientists create first cloaking device',joy
+'Donald and Goydos share Sony lead',joy
+'Get ready for the earnings',joy
+'Collision on icy road kills 7',sadness
+'Tell your boss: Naps are good for you',joy
+'Women protest Pakistan demolition',anger
+'Paula Abdul: \'I have never been drunk\'',surprise
+'Thailand attacks kill three, injure 70',sadness
+'Goodbye to girlhood',sadness
+'Tumor Types May Explain Survival Rates for Cancer',sadness
+'Tow truck drivers accused of stealing cars',fear
+'Hungary police tackle violent protestors',sadness
+'Asia seeks breakthrough on North Korea',surprise
+'European shares hit fresh highs',joy
+'Unilever group names new chairman',joy
+'Japanese whaling ship won\'t accept help',fear
+'Bill, thanks for the RSA memories... and laughs',joy
+'Park stars as United maintain lead',joy
+'No e-Book for Harry Potter VII',sadness
+'Cheney starts visit to Japan, Australia',joy
+'Gunmen abduct Filipino woman in Nigeria',disgust
+'Pit bulls jump miniature pony, leave her bloody',sadness
+'Cher items snapped up at auction',joy
+'Ready to eat chicken breasts recalled due to suspected listeria',disgust
+'Mistrial for officer who refused to go to Iraq',sadness
+'Madonna adoption bid approved',joy
+'All African amputee football games kick off',joy
+'Foreign minister of Colombia quits in scandal',fear
+'Howard slams Obama on Iraq policy',anger
+'Scientists tout cocoa\'s health benefits',joy
+'Thousands rally in Lebanon',disgust
+'Second hanging also went awry, Iraq tape shows',sadness
+'Messi makes Barcelona squad return',joy
+'Victim: Gunman bought drink after shooting',surprise
+'Discovered boys bring shock, joy',surprise
+'Spacewalker sets new U.S. record',joy
+'Manila hints at ransom approval',sadness
+'Merkel: Stop Iran',disgust
+'Israel admits using phosphorous shells in Lebanon',sadness
+'Microsoft downplays Vista speech-recognition hack',joy
+'UK soldiers cleared of Iraq abuse',joy
+'Dating difficult for Harry Potter',surprise
+'School ends football season after 0-4 start',sadness
+'Perfect lives lose their focus',joy
+'Finally, Senate okays anti-terror bill Manila',joy
+'Allmendinger joining Toyota team in NASCAR',joy
+'Italy to hold no-show trial of Bronx GI in Iraq slay',anger
+'Underarm bowls them over',surprise
+'After Iraq trip, Clinton proposes war limits',joy
+'Hussein co-defendants executed',sadness
+'G7 to China: Ease exchange rate grip',surprise
+'Obama: I\'m running for president',joy
+'5000 years on but couple still hugging',surprise
+'Town packs gym to mourn 10 killed in fire',sadness
+'Federer overcomes a ragged start',joy
+'Protest greets congestion charge\'s westward push',anger
+'Alonso would be happy to retire with three titles',joy
+'Turner pays for Boston \"bombing\"',disgust
+'Nasdaq fails in bid for LSE',sadness
+'Experts: Fear likely shackled boy',disgust
+'Dolphins, sea lions may report for duty soon',joy
+'Rowdy fans ejected from the Open',anger
+'Record-shattering day on Wall St.',joy
+'In clue to addiction, brain injury halts smoking',surprise
+'Tom Cruise and Katie Holmes set wedding date',joy
+'\'House of Cards\' actor Ian Richardson dead',sadness
+'Far away, Super Bowl\'s losers will be champs',joy
+'Somali PM vows to bring Islamists to justice',anger
+'Breast Cancer Awareness is Important',disgust
+'Lee in pre-World Cup injury scare',disgust
+'Bridge blast stops I-95 traffic',disgust
+'Malaysia launches tourism campaign',joy
+'Australian PM stands by Obama attack',joy
+'NATO: Afghanistan peace \'by 2009\'',joy
+'Madonna files adoption papers',joy
+'New vaccine for cervical cancer could prove useful in men, too',joy
+'Iraqi death toll exceeded 34,000 in 2006, United Nations says',sadness
+'Archaeologists find remains of couple locked in a hug',surprise
+'Google buys YouTube for $1.65bn',surprise
+'Bears fan loses bet and changes name',surprise
+'Reopening bird flu-hitfactory ignores risks - poultryman',disgust
+'Democrats look beyond symbolic vote on Iraq',joy
+'U.S. urged to lead on \'green\' actions',joy
+'Ottawa must redefine \'terror\'',disgust
+'Male sweat can raise hormones',surprise
+'Sarkozy heads for clash in cartoons row',anger
+'POLITICS-US: reprieve for officer who denounced \"Immoral War\"',joy
+'Mbeki: 2010 World Cup Planning on Track',joy
+'Seahawks\' QB Hasselbeck out 2-4 weeks',sadness
+'Alaska\'s northern lights captivate Japanese',joy
+'Whether to save cord blood can be puzzle for parents',surprise
+'Man beheaded in southern Thailand',sadness
+'Judge: Preserve Anna Nicole\'s body',sadness
+'Bernard Matthews to lay off up to 500 workers',sadness
+'US Troops Killed In October In Iraq',sadness
+'More Human Remains Found at Ground Zero',sadness
+'Paterson boots Scotland to victory',joy
+'India\'s famous landmark gets facelift',joy
+'Aquarium puts ailing beluga whale to sleep',sadness
+'Police probe 2 church fires half mile apart',sadness
+'The summit - a slap in the face of the Palestinians',fear
+'Salt Lake City mall shooter was teenager',sadness
+'Investigation of child porn site hits 77 nations',fear
+'This week in auto racing October 27 - October 29',joy
+'Amazon.com has \'best ever\' sales',joy
+'Chvez threatens to jail violators of price controls',anger
+'Anti-U.S. Attack Videos Spread on the Internet',anger
+'Lebo: A life lived on the edge',anger
+'Travel chaos as heavy snow hits UK',disgust
+'Philippine anti-terror law delayed until June',disgust
+'Observatory: poison begets poison',disgust
+'New Iraq terror tape calls for abducting foreigners',disgust
+'In the world of life-saving drugs, a growing epidemic of deadly fakes',sadness
+'Ethiopia readies for millennium all its own',joy
+'Microsoft, Sony, we have a problem',surprise
+'World tourism sets record in 2006',joy
+'Auto show canceled',sadness
+'Kathmandu: First snow in 63 years',surprise
+'Teen repellent inventor wins infamous prize',joy
+'Smokestacks in a white wilderness divide Iceland',sadness
+'Ex-suspect slams anti-terror laws',anger
+'Paris police investigate package at Canadian embassy',disgust
+'Prehistoric Romeo and Juliet discovered',joy
+'Resolution approved for international games',joy
+'Routine mission turns into hunt for missing comrade',sadness
+'Study: men\'s sweat triggers high sexual arousal in women',surprise
+'Cultural revolutionary, the iPod is five',joy
+'New gadgets galore at tech show',joy
+'Italy to try US soldier for agent\'s Iraq death',anger
+'Fine wines in British Columbia',joy
+'A police state? The issues',disgust
+'Palestinians say clashes hurt their cause',sadness
+'In Washington, contractors take on biggest role ever',surprise
+'Flu Vaccine Appears Safe for Young Children',joy
+'Space life search turns to TV',surprise
+'Eight US soldiers killed in Zabul helicopter crash',sadness
+'Texan allegedly joined Somalia rebel plot',anger
+'Ganguly handed India squad call-up',joy
+'Group: Video shows chopper go down',sadness
+'U.S. online love brokers eye China',sadness
+'New McCain team made attack ads he once faulted',anger
+'Siestas may cut heart disease risk',joy
+'Hackers attack root servers',anger
+'\'We lit our last candle yesterday\'',sadness
+'Dow hits new record, eyes 12,000',joy
+'University offers support to New Orleans school',joy
+'Durant\'s success trumps the Gators',joy
+'Snow wreaks havoc in East, Midwest',sadness
+'Victims of Air India still wait for justice',sadness
+'\'24\'s\' Jack Bauer returns',joy
+'Video games can improve your vision',surprise
+'Reunited Police to start world tour in May',joy
+'Beauticians cut, curl, offer stroke-prevention info',joy
+'Internet attacked! (Did anyone notice?)',surprise
+'TBS to pay $2M fine for ad campaign bomb scare',disgust
+'On Educating Sexes Separately',anger
+'\"Stomp the Yard\" has winning moves in its weekend debut',joy
+'Panda cub makes her debut',joy
+'Asian nations urge Myanmar reform',surprise
+'Iran top N-envoy heads for Vienna for nuke talks',joy
+'Kylie\'s love split',sadness
+'China Successfully Launches Two Satellites',joy
+'Cher auction fetches double pre-sale estimates',joy
+'Ryan O\'Neal injured son\'s girlfriend',sadness
+'AU regrets Sudan\'s expulsion of UN envoy',sadness
+'Essay: about that mean streak of yours: psychiatry can do only so much',sadness
+'Reclusive \'Mockingbird\' author attends show',joy
+'Pacers\' Jackson misses gun hearing',disgust
+'Yahoo\'s mission quest',joy
+'Press sees hope in Mecca talks',joy
+'House ethics panel talks to Hastert aide',joy
+'Cheney to Congress: Can\'t run Iraq war by committee',anger
+'Ashton Kutcher tells secret to Ryan Seacrest',surprise
+'Japan: Whaling activists \'terrorists\'',disgust
+'Questions on credit card safety',disgust
+'Ballerina sparks anti-fascist row',anger
+'Talks begin on Somalia peacekeepers',joy
+'Deaths as bird flu flares in Asia',disgust
+'Warner will not run in \'08',sadness
+'U.S. commander: Iraq not hopeless',joy
+'Zach Braff says he has \'mild depression\'',sadness
+'Iran says Sunnis, using Pakistan as base, planned fatal bombing',disgust
+'\'Blazing Angels\' for PS3 fails to soar',sadness
+'Full recovery expected for marathon winner',joy
+'Will Rob Cohen Direct Third \'Mummy\'?',surprise
+'U.S. to allow 7,000 Iraqi refugees',joy
+'Cartoon Network head steps down',sadness
+'Kanishka bombing case: Inquiry judge threatens to quit',fear
+'Equipment on Plane in Brazil Collision May Have Been Faulty',sadness
+'Books on science: The problems in modeling nature, with its unruly natural tendencies',surprise
+'Salmonella outbreak traced to peanut butter',disgust
+'ECB holds rates at 3.5 percent',joy
+'Anglican and Catholic churches could merge',joy
+'Britain to Limit Workers from Romania, Bulgaria',disgust
+'Air France KLM profit rises',joy
+'Pair of Satellites Will Document Sun in 3-D',joy
+'The NFL\'s 20 biggest potential free agents',joy
+'Sleuths close in on Odysseus home',surprise
+'Appeal by Chinese Researcher for Times May Soon Be Heard',joy
+'Clinical Everton show Moyes means business',joy
+'We\'re a pretty kind \'bully\'',joy
+'Iran\'s president urges higher birth rate',surprise
+'Squirrel jumps boy in park; rabies suspected',surprise
+'Roots of autism more complex than thought',surprise
+'\'Lost\'s\' Fox: \'I\'m a liar and a cheat\'',fear
+'Bosses sleeping on idea of letting workers take naps',surprise
+'Toddler died from E. coli tainted spinach',sadness
+'Who are you calling fat?',fear
+'Storm causes slick, icy roads',disgust
+'Global National\tMajor child porn ring bust',fear
+'UK announces immigration restrictions',anger
+'Mass Venezuela opposition rally',anger
+'Dad locked up son, watched on TV, police say',sadness
+'6 dead after Utah Mall shooting rampage',sadness
+'U.S. says powerful Iraqi cleric is living in Iran',disgust
+'Sony Hates Europeans, Will Prevent The Importing of PS3',anger
+'BB star Jackson denies Goody comments',fear
+'Ferrer victorious in Spanish duel',joy
+'Taliban seize rural district in southwest as police flee',disgust
+'Matthews lays off 130 turkey workers',sadness
+'Feeding your brain: new benefits found in chocolate',joy
+'Merriman violation stuns ex-teammate',surprise
+'iPod good for video games',joy
+'Foetal mechanism helps heart failure',surprise
+'A shot in the arm',disgust
+'Iraq closes borders with Syria and Iran',sadness
+'Spain ahead although Nadal is out',joy
+'Nails-on-chalkboard study earns Ig',fear
+'North Korea ready to discuss nuke disarmament',joy
+'HPV vaccination stirs heated debate in America',surprise
+'\'Runway\': Making Good Without Making Nice',joy
+'Friendly fire pilot \'experienced\'',sadness
+'Doomsday Clock ticking away',disgust
+'Personal health: the importance of knowing what the doctor is talking about',disgust
+'Tariq Ramadan has an identity issue',surprise
+'Judge threatens to shut down Air-India inquiry',anger
+'Bananaconda inventor is top poet of kids',joy
+'Sarkozy letter surprises French cartoons hearing',surprise
+'World\'s oldest newspaper now exists only online',surprise
+'Mardi Gras rebound in the offing for New Orleans?',joy
+'Schuey sees Ferrari unveil new car',joy
+'Technology may save India\'s river dolphins',joy
+'Kim Osorio Wins Sexual Harrassment Suit Against The Source',joy
+'Report links humans to global warming',disgust
+'Sights and sounds from CES',joy
+'Tailors and housewives busy as Muslims celebrate Eid',joy
+'Teen hacks Venezuelan government Web sites',surprise
+'Beyonce in a bikini as SI\'s swimsuit cover model',joy
+'African nation hopes Whoopi can help',joy
+'\'Alpha Dog\' misses the point',surprise
+'EarthLink CEO dies at age 49',sadness
+'Gunman \'fine\' before shooting',sadness
+'North Korea aid demand stall talks',sadness
+'Iraq car bombings kill 22 People, wound more than 60',sadness
+'Griffiths scorns Withnail \'play\'',fear
+'Kurdish Lawmaker Killed in an Attack in Baghdad',disgust
+'Software giant SAP misses target',sadness
+'On MySpace, girls seek friends, boys flirt',surprise
+'France rejects Rwandan investigators',anger
+'Bathing mom awakes to find baby dead',sadness
+'South Korea fire kills 10 foreigners',sadness
+'Outdated baby food found on shelves',fear
+'Breast cancer drug promises hope',joy
+'Bomb kills 18 on military bus in Iran',sadness
+'A small part of the brain, and its profound effects',surprise
+'Fully-cooked chicken strips recalled',surprise
+'Champion Murray too good for Kim',joy
+'France: Al Qaeda suspects arrested',disgust
+'Terai protesters hail \'historic\' victory over government',joy
+'Women in their 60s \'are perfectly good mothers\'',sadness
+'Second opinion: girl or boy? as fertility technology advances, so does an ethical debate',surprise
+'Apple set for massive market gains',joy
+'Mother: Lohan is doing \'great\' in rehab',joy
+'Fight starts over HPV vaccine',fear
+'Snow causes airport closures in Britain',sadness
+'Official laughs for Borat',joy
+'Iraqi Linked to Sunni Bloc Is Held in Plot, Military Says',disgust
+'Sri Lanka floods displace 60,000',sadness
+'US helicopter crash kills 8 troops in Afghanistan',sadness
+'Disturbing finds in child sex raids',fear
+'Opponent is put on the spot over remarks about Clinton',surprise
+'Rights group halts violent Nepal strikes',joy
+'Ice storm smacks roads, power',disgust
+'Defense to challenge Russert\'s credibility',surprise
+'Dead Bachelors in Remote China Still Find Wives',surprise
+'Scientist snoops in astronauts\' journals',fear
+'Israel insists on Lebanon overflights',anger
+'Citing Spy Agencies\' Study, Democrats Seek Iraq Changes',surprise
+'Snowbirds shortening their Florida stays',sadness
+'Can North Korea be trusted?',disgust
+'Samba school leader killed before Rio carnival',sadness
+'Here come the Globes!',joy
+'Serbia rejects United Nation\'s Kosovo plan',anger
+'Britain to restrict immigrants from new EU members',fear
+'BP CEO Browne to step down in June',sadness
+'Three found alive from missing Russian ship -report',joy
+'New cancer drug to save a thousand lives a year',joy
+'Beijing journal: Olympic construction unearths ancient treasure trove',joy
+'Police warn of child exploitation online',fear
+'Wizardry at Harvard: physicists move light',surprise
+'Rig-threat cargo ship towed ashore',disgust
+'Iran vs. North Korea: not all enemies are equal',anger
+'Swiss plane crashes at Moscow airport',sadness
+'A nap a day may keep the heart doctor away',surprise
+'UK workers on alert for letter bombs',disgust
+'Ice storms kill 21 across nation',sadness
+'Edwards\' campaign blogger quits amid Catholic controversy',surprise
+'Updates on world\'s top stories',disgust
+'\'Bookworm Adventures\' wordsmith\'s joy',joy
+'Costner appeals in casino wrangle',anger
+'Lies, damned lies, and divorce',sadness
+'Tropical Storm Paul\'s Outer Bands Hit Mexico\'s Baja California',sadness
+'Woman dies after water binge',sadness
+'Building a memorial to a son, one child at a time',sadness
+'College tuition continues climbing',anger
+'\'Housewives\' star Marcia Cross on bed rest',sadness
+'War is close, Ethiopia tells Somali rebels',disgust
+'\'Stomp\' steps to No. 1 at box office',joy
+'\'Cagney & Lacey\' finally coming to DVD',joy
+'PC World editor slain at California home',sadness
+'Beating poverty in a small way',joy
+'Review: Nokia 5300 Xpress Music',joy
+'GPS sneakers locate with press of a button',surprise
+'Israelis retaliate after attack by Lebanese Army',disgust
+'Moderate drinking reduces men\'s heart attack risk',joy
+'Life on Mars? Maybe We Missed It',surprise
+'Kentucky wants to ban alcohol inhalers',surprise
+'\'Made in China\' irks some Burberry shoppers',anger
+'Martian Life Could Have Evaded Detection by Viking Landers',surprise
+'Ice stops trolleys cold',sadness
+'Two Koreas to resume talks',joy
+'Bush authorized Iranians\' arrest in Iraq, Rice says',anger
+'Miss Brazil wins lawsuit competition',joy
+'7 Die As US Helicopter Crashes in Iraq',sadness
+'Depp to star in spy poisoning film',joy
+'Turkmen acting leader sworn in as new president',joy
+'Nasdaq-LSE battle nears deadline',disgust
+'Taking the plunge',disgust
+'Apple\'s dark secret? The 39\% claim',surprise
+'Advantage Cardinals with Suppan in Game 4',joy
+'Bollywood\'s \'Brangelina\' engaged',joy
+'Win a (concert) date with the Police',joy
+'Bush declares Iran\'s arms role in Iraq is certain',disgust
+'Wilkinson sets record in tame win',joy
+'Memo from Frankfurt: Germany relives 1970s terror as 2 seek release from jail',disgust
+'Iraq unveils new security plans',surprise
+'Best of the Chicago Auto Show',joy
+'Embattled Edwards blogger quits campaign',sadness
+'Whistle-blowing Web site exposed',surprise
+'Pound will not drop Armstrong case',anger
+'Edwards blogger quits, becomes journalistic martyr',surprise
+'Violence continues at disputed holy site',sadness
+'Injured Marathon Winner Leaves Hospital',joy
+'Rupert Murdoch\'s secret TiVo',surprise
+'Alzheimer\'s Drugs Offer No Help, Study Finds',sadness
+'Beyonce copyright claim rejected',anger
+'Heavy use of mobile phones can make men infertile, scientists say',disgust
+'Dryer blamed for fire killing 39 cats, dogs',sadness
+'Top General Optimistic on Iraq',sadness
+'What the Godfather of Soul meant to me',joy
+'Stonehenge workers\' village found',surprise
+'Thailand: missing 25 years after taking wrong bus',sadness
+'Botched hangings in Iraq speed sectarianism',disgust
+'Ingredient in male sweat raises women\'s hormone levels',surprise
+'Easy ways to (really) save $400,000',joy
+'Napping is good for your heart, study finds',joy
+'De Villiers stretches overall lead',joy
+'Jon Stewart mocks benefits of CNN\'s I',surprise
+'Pakistan-India peace talks planned despite bombings',joy
+'Russian bird flu outbreak is deadly \"Asian strain\"',disgust
+'Squadron apologies over \'friendly-fire\' death',sadness
+'Creating a whole album in a month?',surprise
+'Israeli, Lebanese clash on border',disgust
+'Marijuana may stave off Alzheimer\'s',surprise
+'Bad weather cancels men\'s downhill',sadness
+'Fingers crossed for North Korea',joy
+'Congressman rebukes U.S. allies for lack of support in Afghanistan',anger
+'Review: \'Alpha Dog\' misses the point',sadness
+'China says rich countries should take lead on global warming',sadness
+'Inconvenient truths',anger
+'U.S. and Iraqis are wrangling over war plans',disgust
+'Gunmen kill 9 at Iraqi TV station',disgust
+'Snow brings travel misery to England',sadness
+'Airbus A380 superjumbo takes off',joy
+'Life in Gaza steadily worsens',sadness
+'Stepping back in time at ski resort',joy
+'Internet boom in China is built on virtual fun',joy
+'Peru leader questioned in massacre probe',sadness
+'Samsung settles price-fixing lawsuit',joy
+'Call it serendipity: a missing piece of Washington\'s war tent is found',joy
+'Next island hot spot: St. Lucia',joy
+'Iran rejects US claims of supplying weapons in Iraq',disgust
+'EMI warns on profits, boss goes',disgust
+'Melua\'s deep sea gig sets record',joy
+'Diplomat acknowledges US arrogance in Iraq',anger
+'Obama will run in 2008',joy
+'MySpace sales surging',joy
+'Photographer kidnapping condemned',fear
+'Planned cesareans not risk-free, group warns',disgust
+'Airlines: UK airport runway unsafe',disgust
+'Grammys ready to name winners',joy
+'Livingstone\'s transport empire may extend',joy
+'Opera Canceled Over a Depiction of Muhammad',sadness
+'Cousin: Gunman was Srebrenica survivor',sadness
+'U.S. gunman \'was Srebrenica survivor\'',surprise
+'U.N. Force Is Treading Lightly on Lebanese Soil',disgust
+'U.S. diverts troops to fight Taliban',anger
+'Nadal wants Australian Open crown',joy
+'Mogadishu residents flee blasts',disgust
+'Astronaut\'s arrest tests NASA\'s mettle',surprise
+'Full details of the EU report on Iran',surprise
+'Models\' health guidelines -- will they help?',surprise
+'NASA spacecraft to measure Sun',joy
+'Silly and substantial',joy
+'Oprah announces new book club pick',joy
+'Bush: It\'s time for Congress to back energy plan',joy
+'Navarrette: Minutemen have a right to be idiotic',sadness
+'North Korea may begin to dismantle nukes',joy
+'Second drop in cancer deaths could point to a trend, researchers say',surprise
+'Boy allegedly told to kill by mom gives up',sadness
+'Ukraine gas deal marred by fears',disgust
+'Study: Male sweat causes female hormones to rise',surprise
+'Troops massing around Somali town',disgust
+'Stop cancer with a shot',joy
+'U.S. at odds with cleric\'s aide',disgust
+'Fuel spill may lead to missing jet',disgust
+'Annual diving contest in South Korea proves a chilly challenge',surprise
+'UK characters boosting box office',joy
+'Portugal to vote on abortion laws',surprise
+'3 U.S. troops killed hunting weapons cache',sadness
+'Al Qaeda chiefs are seen to regain power',disgust
+'\'Sunshine\' Goydos wins Sony open',joy
+'Autos drive European gains',joy
+'Hurricane Paul Weakens To Tropical Storm',surprise
+'\'Human hair\' clue in hunt for airliner',surprise
+'Allied with democrats, Lieberman easily aligns with Republicans',surprise
+'Chinese president arrives in Mozambique, African tour nearly over',joy
+'Archaeologists find signs of early chimps\' tool use',surprise
+'On-the-job naps might cut heart risk',joy
+'Beckham \'won\'t play again for Real\'',sadness
+'Iraqi sunni lands show new oil and gas promise',joy
+'Al Qaeda group calls for attacks on U.S. oil',disgust
+'At New OZZFEST, Freedom Ain\'t Free',surprise
+'Attorneys point fingers in fight between Ryan O\'Neal and son',anger
+'Terror network',disgust
+'Cohn gunman jailed for 36 years',joy
+'Iraqi health minister seized in raid',surprise
+'Iran says it will strike US interests if Attacked',disgust
+'Horse teeth give details of ancient big chill',surprise
+'Steelers\' Roethlisberger has concussion',sadness
+'Deaths linked to flu vaccine',sadness
+'Tsunami fears ease after quake',disgust
+'Really?: The claim: the back seat of a car is the safest place to sit',surprise
+'The energy challenge | Exotic visions: how to cool a planet (maybe)',surprise
+'Sri Lanka clashes kill 129 troops',sadness
+'Rebels to join Nepal parliament',surprise
+'Czechs, Poles get missile warning',disgust
+'A Mix of Oil and Environmentalism',disgust
+'Indonesia may sell, not give, bird flu virus to scientists',disgust
+'Toddler died from tainted spinach',sadness
+'Google to unveil election mashup',surprise
+'Utah gunman survived Srebrenica',joy
+'Desperate Iraqi mother relies on militia for help',sadness
+'Smith can\'t be buried until hearing',sadness
+'Rocky start for Bangkok airport',surprise
+'Mother, daughter stabbed near school',sadness
+'Bombings say Muslim rebels won\'t negotiate',disgust
+'Palestinian factions to resume talks',joy
+'Madonna\'s new baby\'s daddy didn\'t realize adoption was `for good\'',surprise
+'Madonna\'s New Tot \'Happy at Home\' in London',joy
+'U.S. Warns North Koreans About Nuclear Test',disgust
+'Briton admits U.S. bomb plot role',sadness
+'New Mars orbiter spots Pathfinder landing site',joy
+'Test cricketer jailed over killing',sadness
+'Active peace brings the promise of development',joy
+'Looking beyond the iPhone',surprise
+'Dow flirts with record highs again',joy
+'Free Will: Now you have it, now you don\'t',surprise
+'China denies reports of North Korean apology',surprise
+'Seduced by Snacks? No, Not You',fear
+'Russia condemns terrorist acts on buses outside Beirut',sadness
+'Abbas condemns Israeli massacre in northern Gaza Strip',fear
+'US, North Korea signed nuclear memo',joy
+'YouTube yields surprising payback',surprise
+'Zoo polar bear to have root canal',sadness
+'Even before its release, world climate report is criticized as too optimistic',disgust
+'Man gets second chance at space ride',joy
+'Scientists discover miracle in the depths',surprise
+'Cooking Defines Sephardic Jews at Sukkot',joy
+'4th person dies after receiving flu shot',sadness
+'Kidnappers seize two in Nigeria',disgust
+'Deadly bird flu confirmed in British Turkeys',disgust
+'Game on! London exhibition celebrates the history of video games',joy
+'Iraqi forces detain official suspected in Shia conspiracy',disgust
+'Isinbayeva sets 20th world record',joy
+'Floods force Malaysia evacuations',sadness
+'Rice: U.S. won\'t pull plug on Iraq',joy
+'The troubling ending of \'The Departed\'',sadness
+'Teacher charged with sex assault',fear
+'Trucks swallowed in subway collapse',sadness
+'Carter was a disaster, said Ford',anger
+'Ozzy, a Hero for the hard-rocking masses',joy
+'Inter Milan set Serie A win record',joy
+'US to prod NATO allies for more troops to defeat Taliban',disgust
+'Bad reasons to be good',sadness
+'United Finds Good Connection in Win',joy
+'Israeli Bomblets Plague Lebanon',disgust
+'Democrats plot Bush troop increase censure',surprise
+'Super Bowl MVP Manning insists he\'s one of the guys',joy
+'Female astronaut sets record',joy
+'Israel says hopes to keep Lebanon border calm',joy
+'Cutting edge accessories for digital music players',joy
+'Friends for Life: An Emerging Biology of Emotional Healing',joy
+'Did NASA accidentally kill life on Mars?',surprise
+'Apple revs up Mac attacks on Vista',fear
+'Japan\'s economy grows',joy
+'Charts: Is your city lean or lethargic?',surprise
+'Studios sign off on movie downloads',surprise
+'How to Prevent Iraq From Getting Even Worse',disgust
+'Trolley Square shooting leaves 6 dead, including gunman',sadness
+'Weekly Nielsen will \'Lost\' find its way back?',joy
+'Israeli woman\'s tirade spurs PM outrage',anger
+'\'Opportunity\' knocks on geologist\'s dream crater',joy
+'Hands on \'Doomsday Clock\' move forward',disgust
+'Gray wolves off endangered list',joy
+'Closings and cancellations top advice on flu outbreak',disgust
+'Mountain glaciers melting faster, United Nations says',disgust
+'Ivrea journal: In Italian town, a civics lesson from pelting neighbors',surprise
+'Why the smell of a man\'s armpit is a turn-on',surprise
+'Taiwan\'s \'Mr. Clean\' indicted, steps down',sadness
+'Briefly: preloaded iPods, Wal-Mart movies, Apple stores',joy
+'Andromeda involved in galactic collision',surprise
+'Stenson defends his title at Dubai',joy
+'US millions fail to buy influence in deadly Gaza power play',sadness
+'South African trio share advantage',joy
+'Swingers more common than most think',surprise
+'Dozens killed in Baghdad bombing',sadness
+'Apple: no iTunes for you if you have Vista!',surprise
+'Hussein\'s niece pleads for father\'s life',sadness
+'Student starts white men\'s club on campus',sadness
+'Italy drops Sicily bridge plans',surprise
+'Blair apologises over friendly fire inquest',sadness
+'Asia near pact on energy, security',joy
+'Bernanke: Economy healthy, but...',disgust
+'Trains crash near Thai resort town',sadness
+'Photographer kidnapped in Gaza',fear
+'Bush vows cooperation on health care',joy
+'Oracle World opens with Dell unveiling AMD-powered computers',joy
+'Accord on North Korea is announced',joy
+'FDA revises label warnings on the antibiotic Ketek',joy
+'Iraqis fault delayed U.S. plan in attack',anger
+'African-Americans are organ donors these days, but what about bone marrow?',surprise
+'Beware of peanut butter pathogens',disgust
+'Clijsters looks for a long goodbye',sadness
+'Apple drops bombshell with iPhone',surprise
+'ROUNDUP: Protests erupt despite \"state of siege\" In Guinea',anger
+'Students use IM-lingo in essays',surprise
+'China\'s \'nightmare scenario\'',disgust
+'Freed kidnap suspect: my terror at police raid',disgust
+'North Korea claims nuclear test',disgust
+'Indonesia \"will not share\" flu samples',surprise
+'John Grisham set for court drama',disgust
+'Walnuts \'combat unhealthy fats\'',joy
+'Officers had \'rapport\' with alleged abductor',fear
+'Here is some advice to take to heart...',surprise
+'Fortune: India the Superpower? Think again',surprise
+'Dell to cut bonuses, trim management',sadness
+'North Korea gets \'money and respect\'',joy
+'No 10 rejects police state claim',surprise
+'J.K. Rowling marks spot of \'Potter\'s\' end',sadness
+'Virtual \'American Idol\' hits right notes',joy
+'Rare optimism as North Korea talks reach crossroads',joy
+'Attack video saddens \"friendly fire\" widow',sadness
+'Slow \'Music and Lyrics\'',joy
+'China\'s \'Friends\' highlights Web freedoms',joy
+'Teacher\'s porn conviction sparks tech debate',fear
+'Scorpion on a plane, a pantful of pain',disgust
+'Two detained in body parts mailing',fear
+'Serena misses Bangalore tournament',sadness
+'Pap Test, a mainstay against cervical cancer, may be fading',surprise
+'Escape to Prague without the summer hordes',joy
+'Mortar assault leaves at least 18 dead',sadness
+'MySpace welcomes French friends',joy
+'Vital signs: mental abilities: folic acid may improve thinking skills',surprise
+'Waste plant fire forces 5,000 to evacuate',sadness
+'Small jet crashes on takeoff, killing 2',sadness
+'Two Muslim groups sue French newspaper International',anger
+'Iran reneges on nuclear payments to Russia',disgust
+'Cases: when the simple solution is the right one',joy
+'Singapore pampers its waterfront promenade',joy
+'More sleep, healthier slimmer children',surprise
+'German Chief Forges Accord on Financing Health Care',joy
+'Sharks kill four people in \'dull\' year',sadness
+'Canadian breakthrough offers hope on autism',joy
+'Iran warns will hit back at US if attacked',disgust
+'Beating leaves teen in coma',sadness
+'Trying to assess the damage in Cleveland',sadness
+'Mbeki on the big visit from the Chinese',surprise
+'Houston, she\'s got some problems',sadness
+'Israel to install cameras to show live Mughrabi footage',joy
+'Making peace from victory over poverty',joy
+'Martins leads Newcastle fightback',joy
+'Afghan forces retake town that was overrun by Taliban',joy
+'Findings: Can humanity survive? Want to bet on it?',disgust
+'Gently Weeps\' lyrics sheet up for sale',joy
+'United hang on to six-point lead',joy
+'James Brown\'s partner can get her things',joy
+'Nigeria hostage feared dead is freed',joy
+'Eight years for Damilola killers',sadness
+'Experts issue new heart disease guidelines for women',joy
+'Former teacher poses for Playboy',surprise
+'Rowling \'heartbroken,\' \'euphoric\' at \'Potter\'s\' end',sadness
+'Republicans plan to block Iraq debate',anger
+'Lawmaker seeks iPod ban in crosswalks in New York',surprise
+'Confusion Reigns In the Expanding Digital World',surprise
+'Terror officials see Al Qaeda chiefs regaining power',disgust
+'Dem leader\'s $1 million land deal under scrutiny',anger
+'An iPhone by any other name? Surely not',surprise
+'Catholic archbishop outlines Anglican merger hopes',joy
+'Sarkozy comfort zone offers a royal opportunity',joy
+'Probe under way in Yankee crash',sadness
+'Snow causes transport chaos in Britain',sadness
+'10 don\'t-miss tax breaks',joy
+'Search on for victims of subway collapse',sadness
+'Bush adamant on troops to Iraq',anger
+'Blake defeats Moya to retain title',joy
+'Iran to hit US interests if attacked',disgust
+'US Airways boosts bid for Delta',surprise
+'Singer on Cowell: Glad he was mean',joy
+'Las Vegas honour for tiger pair',joy
+'Vegetables, not fruit, slow brain decline',surprise
+'Arroyo lauds passage of anti-terror bill',joy
+'Princess and heir of Franz Ferdinand fights to repeal a law and gain a castle',joy
+'Merck: Gardasil may fight more strains',joy
+'Poison Pill to Swallow: Hawks Hurting After Loss to Vikes',sadness
+'Test to predict breast cancer relapse is approved',joy
+'Iran to Hit US Interests if Attacked',disgust
+'Joseph Wambaugh\'s new start',joy
+'Howell takes one shot lead in Sony Open',joy
+'Body Shop\'s Roddick has Hepatitis C',sadness
+'Johnny Depp to make movie of spy poisoning',joy
+'What\'s behind the chopper crashes in Iraq',disgust
+'Evacuees can return home after plant blast',joy
+'Really?: The claim: the pill can make you put on weight',surprise
+'Pediatricians say more cord blood is needed now',disgust
+'Latest food-fad -- \'space potatoes\'',surprise
+'Queen battles Bond for Baftas',joy
+'Pluto\'s revenge: \'Word of the Year\' award',joy
+'Russia to strengthen its military muscle',disgust
+'Comedian says government silences critics',sadness
+'Depp \'to make Litvinenko movie\'',joy
+'Jakarta begins disinfection',joy
+'Lawmakers blast FDA drug safety oversight',anger
+'Princess Masako author: No regrets',surprise
+'PSP number one Sony platform in Japan',joy
+'Health Canada issues advice on canned tuna',disgust
+'Pig cells hope for diabetes cure',surprise
+'German paper shows soldiers desecrating skull',fear
+'Study links chimps and \'hammers\'',surprise
+'Committee debates cancer vaccine plan',surprise
+'Findings : A cool $25 million for a climate backup plan',surprise
+'Australia tells Bush to speed up Guantanamo trial',surprise
+'Audio Slide Show: A love story lasting 61 years',joy
+'7 dead in apartment building fire',sadness
+'Beckham & Posh and more athlete-celebrity couples',joy
+'Pats\' fourth-quarter rally finishes Chargers',joy
+'Nap your way to a successful career',joy
+'Firms on alert for letter bombs',disgust
+'House passes anti-terrorism measure Manila',joy
+'Ice storm descends on central U.S.',disgust
+'Mickelson driving force at masters',joy
+'Porn star candidate campaigns on campus',fear
+'A familiar and prescient voice, brought to life',joy
+'Police and shoppers targeted in growing Iraq violence',disgust
+'Anna Nicole Smith\'s body lies in legal limbo',sadness
+'Anna Nicole Smith fans mourn in cyberspace',sadness
+'Judge dismisses Karr\'s porn case',surprise
+'Ex-teacher guilty in nude-pictures scheme',fear
+'Magazine lists women who had abortions',anger
+'Girl left comatose after dental visit dies',sadness
+'UN-Google Earth map climate change',joy
+'No. 1 Florida survives Rupp Arena, streak hits 16',joy
+'Malaysian AirAsia X to fly in July',joy
+'Psych checks reviewed after astronaut\'s crack-up',sadness
+'Students lose their rite of passage',sadness
+'Thai Govt moves to smooth over relations with south',joy
+'Double bus-bombing kills three in Lebanon',sadness
+'Bebe Neuwirth gets to \'wiggle again\'',joy
+'Mega-marsupials once roamed Australia',surprise
+'Malaysia aggressively wooing tourists',joy
+'Anna Nicole Smith\'s Bahamas home seized',sadness
+'Scam lures victims with free puppy offer',surprise
+'Somali refugees cut off from aid',sadness
+'Fear hinders black marrow donation',disgust
+'Action intensity boosts vision',joy
+'Carrefour sales growth falls short',sadness
+'Snow begins, heavy accumulations expected',disgust
+'Vital Signs: Hazards: Antidepressant linked to fractures in older people',surprise
+'Largest ever autism study identifies two genetic culprits',surprise
+'Napping may be good for your heart',joy
+'Tropical Storm Isaac forms in Atlantic',disgust
+'Chrysler\'s Valentine\'s Day massacre',sadness
+'Hungarian opposition calls for vote after violence escalates',anger
+'Visitors to Eiffel Tower climb to record in 2006',joy
+'Riot warning for France suburbs',sadness
+'Study: On-the-job naps might help heart',joy
+'Guinea capital largely calm under curfew, marital law',disgust
+'Tracking down hi-tech crime',joy
+'North Korea ready to discuss first steps to nuclear resolution',joy
+'Colombia FM resigns after relatives\' arrests for militia links',sadness
+'Hackers strike at key Internet servers',anger
+'Study detects a gene linked to Alzheimer\'s',joy
+'Happy birthday, iPod',joy
+'Bears watch as lead slips away',sadness
+'Cool millions for YouTube founders',joy
+'Iraq insurgents attack US base',disgust
+'Speaker Hastert testifies before panel probing sex scandal',fear
+'Bryant\'s boot may have salvaged Bucs\' season',joy
+'Township tourism booming in South Africa',joy
+'Forecasters expect toasty 2007',disgust
+'The sweet tune of an anniversary',joy
+'De Villiers takes over Dakar lead',joy
+'Jail me, I ate Ivory Coast chocolate',surprise
+'Greek police hunt embassy attackers',anger
+'India\'s Taj Mahal gets facelift',joy
+'EU document: Iranian bomb unstoppable',disgust
+'Real suffer Carlos injury setback',sadness
+'Paris Journal: Smoking No Longer Tres Chic in France',joy
+'Create own \'Thrillville\' for a wild ride',joy
+'Sick hearts switch on a fetal gene',surprise
+'Iraqi suicide attack kills two US troops as militants fight purge',sadness
+'Outcry at N Korea \'nuclear test\'',disgust
+'French suburb riots could resume',disgust
+'Skip the showers: male sweat turns women on, study says',surprise
+'Oil holds at $58',joy
+'Uganda parliament votes to send troops to Somalia',disgust
+'Vaccines: Mandate or choice?',surprise
+'Marathon winner released from hospital',joy
+'Baseball: Rogers enjoys his muddied streak',joy
+'NASA revisiting life on Mars question',surprise
+'Alaska town cut off from rest of state by flood',disgust
+'Reid land deal under scrutiny',surprise
+'Petraeus takes command in Iraq',disgust
+'Who\'s going to win at the Grammys?',joy
+'Pledge: I was abused in frat hazing',fear
+'Senator Says U.S. Should Rethink Iraq Strategy',sadness
+'Vista\'s hyped security will be tested',joy
+'New Indonesia Calamity, a Mud Bath, Is Man-Made',sadness
+'Stars scuffle on \'Grey\'s Anatomy\'',fear
+'China detains 2 after body parts found in mail',disgust
+'Dance movie takes over No. 1',joy
+'News analysis: Iranian boast is put to test',disgust
+'Manning inspires Giants to victory in Dallas',joy
+'Baghdad plan is a success, Iraq prime minister tells Bush',joy
+'ASEAN urges North Korea resolution',disgust
+'Three drivers had reason to be proud in Brazil',joy
+'Rice, in Baghdad, Insists That Iraqis Are',anger
+'Survey: Tech a tool in teen dating abuse',sadness
+'Blissing out in Ojai',joy
+'Jet flips in snowstorm, none dead',joy
+'In Kenya\'s capital, a sense that danger is ever stronger',disgust
+'Homemade bombs kill 65 on Indian train',sadness
+'Goal delight for Sheva',joy
+'1 mln birds to be vaccinated from bird flu near Moscow',joy
+'Spanish journalist seized in Gaza',disgust
+'Tensions as Hungary marks uprising',disgust
+'Lawyer for deceased Nazi-era collaborator Papon vows to bury him',anger
+'Putin vows to tackle illegal immigration',anger
+'Brazil Air Force Cites Faults and Confusion in Fatal Crash',sadness
+'Pot smokers may avoid Alzheimer\'s, study says',surprise
+'Vietnamese bank plans IPO listing',joy
+'Seahawks, Bears vie for shot at NFL title',joy
+'Massive mud traps dozens of families',sadness
+'Weight-loss drug to be sold over the counter',joy
+'Gronholm ahead as Solberg crashes',joy
+'Turkish Writers Say Efforts to Stifle Speech May Backfire',anger
+'UK police slammed over terror raid',disgust
+'Charles Gibson takes over first place',joy
+'Hunters stalk world\'s tallest trees',sadness
+'Tiempo Libre has Grammy dreams',joy
+'Loving with all your ... brain',surprise
+'Philippine president welcomes Senate approval of anti-terror bill',joy
+'The amounts you have to pay for a bomb scare',disgust
+'Corn stoves popping up in U.S. homes',surprise
+'Variety: Johnny Depp to make movie of spy poisoning',surprise
+'Flooding washes out road to Valdez, Alaska',sadness
+'European Space Agency',joy
+'Sex torture claims hit Russia army',fear
+'Wii news for gamers',joy
+'Bombers kill shoppers',disgust
+'Small-business owners find Bush health plan appealing',joy
+'Matt shines with his Alpine finish',joy
+'CIA leak trial summary',surprise
+'Amish schoolhouse torn down',sadness
+'Russia plans new ICBMs, nuclear subs',disgust
+'Nuke detectors to ring New York, official says',disgust
+'U.S. keeps Iran options open',joy
+'China launches two satellites into orbit',joy
+'Growing Unarmed Battalion in Qaeda Army Is Using Internet to Get the Message Out',disgust
+'UK luxury maker Burberry: \'Made in China\'?',surprise
+'Shiite fighters arrested in crackdown, Iraq says',disgust
+'Man admits UK-US terror bomb plot',disgust
+'Turkmenistan votes for president',joy
+'Cuban official: Web a \'wild colt\'',disgust
+'A star dies, a family feud is born',sadness
+'Health returns as hot issue in \'08 race',joy
+'Iraqi Journalists Add Laws to List of Dangers',disgust
+'Vegetables May Boost Brain Power in Older Adults',joy
+'Chefs not counting calories, study finds',sadness
+'Amish killings school demolished',sadness
+'Snowed in the Canadian Rockies',joy
+'Army engineers say dam safe',joy
+'$10,000 poetry prize awarded',joy
+'King county offering some free flu vaccines',joy
+'News Baby pandas! Baby pandas! Baby pandas!',joy
+'At least 130 die as blast levels Baghdad market',sadness
+'Boy Scouts blamed for starting wildfire',disgust
+'Ancient coin shows Cleopatra was no beauty',surprise
+'Combative Bush Releases Parts of Terror Study',disgust
+'Now it\'s official: Iraq\'s a mess',sadness
+'Oxfam: action needed for Chad',joy
+'Bush Insists Troops Stay in Iraq, Predicts Midterm Victory',fear
+'Mideast summit edns with little progress',sadness
+'Charlie Sheen to become highest-paid sitcom star',joy
+'Google executive acts as goodwill envoy',joy
+'Maggie Gyllenhaal\'s Globes babysitter: Mom',joy
+'Black hole triplets spotted',surprise
+'Iran\'s boast on uranium enrichment is put to test',disgust
+'Rwanda mulls three-child limit',surprise
+'England opt for Bopara over Loye',joy
+'Somalia declares state of emergency',disgust
+'In Egypt, Rice speaks softly',joy
+'High cholesterol raises stroke risk healthy women',disgust
+'North Africa feared as staging ground for terror',disgust
+'The secrets people reveal',surprise
+'Senator Carl Krueger thinks iPods can kill you',surprise
+'Surprise: China cuts price of gas',joy
+'Royal seeks to revive French bid',joy
+'Commentary: Minutemen have a right to be idiotic',anger
+'Mancuso sparks U.S. celebrations',joy
+'Boy missing since 2002 found alive',joy
+'Jones faces Europe meetings snub',sadness
+'An Old Letter Casts Doubts on Iran\'s Goal for Uranium',surprise
+'Antibiotic Ketek more dangerous than thought',disgust
+'Social networking goes mobile',joy
+'King and queen reign at British film awards',joy
+'No evidence of ice reserves on the moon',sadness
+'Guinea: Plan offices close as country declares emergency',disgust
+'US soldiers die in day of violence',sadness
+'Blair says he regrets delays in British soldier\'s inquest',sadness
+'France ends toxic alert at Canadian embassy in Paris',disgust
+'Canadians tracked in child porn ring',fear
+'\'Deep regret\' for ex-HP exec',sadness
+'Regular naps make hearts healthy',joy
+'US to urge Nato Afghan spring offensive',disgust
+'YouTube told to drop celeb sex video',surprise
+'Italy\'s dispute with US over Iraq shooting',anger
+'Heavy snow causes travel chaos and shuts schools',disgust
+'Diabetic waits months for eyeglasses',sadness
+'Fortune: Looking beyond the iPhone',joy
+'Lawyer seizes Smith\'s Bahamas home',sadness
+'12 dead in Lebanese minibus bombings',sadness
+'Tourism lags in Bush\'s hometown',sadness
+'PM: Havana deal a good experiment',joy
+'Slain Amish girls laid to rest',sadness
+'Sleep more to fight childhood obesity',surprise
+'\'Norbit\' a waste of Murphy',sadness
+'Libby defense upsets judge, rests',surprise
+'Study: More kids exposed to online porn',fear
+'Mistrial declared in teacher-student rape case',sadness
+'Excerpt: Politicians and the press',fear
+'United Nations peacekeepers raid Haitian slum',joy
+'Justin Timberlake, Cameron Diaz announce split',sadness
+'Bad weather slows S.Korean search for Russian ship',sadness
+'The breast cancer breakthrough saving 1000 women a year',joy
+'What Newsom faces in aftermath of scandal',disgust
+'Morrissey may cheer up Eurovision',joy
+'Planning seen in Iraqi attacks on U.S. copters',disgust
+'Amish discuss shootings',sadness
+'Cholesterol link in diabetes study',sadness
+'India to test new nuclear missile',disgust
+'Male sweat boosts women\'s hormone levels',surprise
+'Guy sweat is babe magnet',surprise
+'Two Hussein allies are hanged, Iraqi official says',sadness
+'Bucs find a new kick in life',joy
+'Apple warns iTunes users to wait on Vista',surprise
+'One search does not fit all',surprise
+'Allen and Okur get All-Star call',joy
+'Woman fights to keep drunken driver in jail',anger
+'Oregon snorkeler mistaken for rodent, shot in face',sadness
+'\'Jackass\' star marries childhood friend The secrets people reveal',joy
+'Beckham outlines reasons for move',joy
+'Late penalty costs Roma the points',sadness
+'Families celebrate return of sons',joy
+'Google To Launch Yet Another Search Tool',joy
+'Too young for this: facing cancer under 40',sadness
+'Military Officials Add to U.S. Criticism of Iraq\'s Government',joy
+'Cutting through the clutter to get things done',joy
+'Peter Pan flies into chapter two',surprise
+'Britons deported from Somalia held under Terrorism Act',disgust
+'Jump reported in accidental drug-overdose deaths',sadness
+'Beckham goal helps Real snatch win',joy
+'Anglicans rebuke U.S. branch on same-sex unions',anger
+'Rockers big winners at Brit Awards',joy
+'Harris haul puts South Africa on top',joy
+'Arthurs upsets Robredo in first round at the St. Petersburg Open',surprise
+'Two Palestinians killed near fence',sadness
+'Cher\'s dress, car, bed have new owners',joy
+'BA to charge $470 for an extra bag',surprise
+'PLO ministers agreed upon in Mecca',joy
+'French right nominates Sarkozy',joy
+'Nipple covers, other star secrets',fear
+'As inflation soars, Zimbabwe economy plunges',sadness
+'London is pace-setter on congestion toll, says mayor',joy
+'Northeaster cancels flights, shuts schools',sadness
+'Moscow says Palestine-Israeli contacts key to Mideast peace',joy
+'Weekly Nielsen Yvonne De Carlo, \'Munsters\' star, dead',sadness
+'Minister slams airlines on carbon',anger
+'Trailblazing trio protects City by the Bay',joy
+'Israel weighs old city project webcast',surprise
+'Bruce revells in upset',anger
+'Afghan poppy war alienates farmers',sadness
+'Peron held over \'70s rights abuses',sadness
+'UPDATE 1-Plane crashes at Moscow airport, no passengers',sadness
+'Wellcome awards anti-fat research',joy
+'Senate votes to revoke pensions',sadness
+'Yankee Dies in Plane Crash, Official Says',sadness
+'Police break up Kosovo protests',anger
+'5 money makeovers',joy
+'Hamas, Fatah leaders pledge to meet until they reach agreement',joy
+'Japanese whaler afire in Antarctic',sadness
+'Human error caused Helios crash',sadness
+'Russia honors Sputnik designer',joy
+'SPACE.com: Black hole triplets spotted',surprise
+'\'Dr. McDreamy\' choked in \'Grey\'s\' scuffle',sadness
+'\'Can\'t do this anymore\'? Not Jack',surprise
+'Teen allegedly armed by mom turns self in',disgust
+'Israel intensifies military flights over Lebanon',disgust
+'Amateur rocket scientists reach for space',joy
+'Hurricane Paul nears Category 3 status',disgust
+'Mickelson, Sutherland share lead',joy
+'Anger at release of two held over beheading plot',anger
+'Indonesia flood forces 340,000 from homes',sadness
+'Hacker unlocks Apple music download protection',surprise
+'Bill would strip convicted legislators of pensions',sadness
+'Ex-JonBenet suspect: Child porn case dropped',anger
+'Sony apologises for global battery recall',sadness
+'A Mistrial for Lieut. Watada',anger
+'Pamuk wins Nobel Literature prize',joy
+'Iran steps up production of weapons-grade uranium',disgust
+'Europe take big Royal Trophy lead',joy
+'Mixed reaction to China\'s Africa push',surprise
+'Smith baby may not be pot of gold',sadness
+'Gere cheers sex workers in AIDS fight',joy
+'Bush officials: no big move in Iraq plan',disgust
+'Tests of drug to block H.I.V. infection are halted over safety',disgust
+'Celebrities Protest Malibu Gas Facility',joy
+'Gronholm takes a commanding lead',joy
+'Too little sleep may mean too fat kids',surprise
+'Brith Airways baggage charges cause confusion',surprise
+'Commodities lead Europe higher',joy
+'See if your city is one of the United States\' top 10 fittest or fattest',surprise
+'Federer handed tough Aussie draw',sadness
+'Why gas follows oil up but not down',surprise

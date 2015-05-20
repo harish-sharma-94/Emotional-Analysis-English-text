@@ -1,0 +1,247 @@
+@relation 'joy file'
+
+@attribute Headline string
+@attribute joy numeric
+
+@data
+'Advantage Cardinals with Suppan in Game 4',4
+'Yankee pitcher\'s pilot log found',0
+'Managua Journal: Hold the Mojito and Margarita, Nicaragua Has el Macu',0
+'Alonso would be happy to retire with three titles',61
+'10 die in 22-hour Kashmir standoff',0
+'Hastert sorry for scandal but not quitting',0
+'Injured Marathon Winner Leaves Hospital',67
+'Doctors Seeing Patients Who Think They\'re Internet Addicted',9
+'Alzheimer\'s Drugs Offer No Help, Study Finds',0
+'Beyonce copyright claim rejected',0
+'German paper shows soldiers desecrating skull',0
+'Heavy use of mobile phones can make men infertile, scientists say',0
+'Tom Cruise and Katie Holmes set wedding date',56
+'Top General Optimistic on Iraq',27
+'Madonna files adoption papers in Malawi',44
+'Immigrants and French Reach Deal in Standoff',50
+'Breast Cancer Awareness is Important',0
+'Porn star candidate campaigns on campus',28
+'Police and shoppers targeted in growing Iraq violence',0
+'Jon Stewart mocks benefits of CNN\'s I',0
+'Judge dismisses Karr\'s porn case',3
+'Magazine lists women who had abortions',0
+'Girl left comatose after dental visit dies',12
+'Madonna files adoption papers',30
+'With YouTube, Grad Student Hits Jackpot Again',72
+'Students lose their rite of passage',0
+'Ottawa must redefine \'terror\'',0
+'Bread-Heavy Diet Linked to Kidney Cancer',0
+'Marijuana may stave off Alzheimer\'s',25
+'Marathon victory comes at heavy cost',38
+'Inconvenient truths',0
+'Gunmen kill 9 at Iraqi TV station',0
+'US Troops Killed In October In Iraq',0
+'More Human Remains Found at Ground Zero',0
+'An Elephant Crackup?',14
+'5,000 flee plant fire',0
+'Melua\'s deep sea gig sets record',54
+'Across Europe, Worries on Islam Spread to Center',0
+'Anti-U.S. Attack Videos Spread on the Internet',0
+'Lebo: A life lived on the edge',0
+'Tropical Storm Isaac forms in Atlantic',0
+'Diplomat acknowledges US arrogance in Iraq',14
+'Riot warning for France suburbs',0
+'Photographer kidnapping condemned',21
+'Opera Canceled Over a Depiction of Muhammad',0
+'Kidnapped AP photographer freed in Gaza',49
+'New Iraq terror tape calls for abducting foreigners',0
+'Global Sludge Ends in Tragedy for Ivory Coast',4
+'U.N. Force Is Treading Lightly on Lebanese Soil',24
+'Happy birthday, iPod',71
+'Speaker Hastert testifies before panel probing sex scandal',0
+'Teen repellent inventor wins infamous prize',41
+'Resolution approved for international games',45
+'NASA spacecraft to measure Sun',29
+'Routine mission turns into hunt for missing comrade',0
+'Silly and substantial',2
+'Cultural revolutionary, the iPod is five',62
+'Navarrette: Minutemen have a right to be idiotic',6
+'The sweet tune of an anniversary',86
+'Ukraine gas deal marred by fears',0
+'Stanford study warns of Internet addiction',0
+'Paris Journal: Smoking No Longer Tres Chic in France',40
+'Flu Vaccine Appears Safe for Young Children',45
+'French suburb riots could resume',0
+'UK characters boosting box office',67
+'Cleric Said to Lose Reins Over Part of Iraqi Militia',0
+'Baseball: Rogers enjoys his muddied streak',67
+'NASA revisiting life on Mars question',23
+'Alaska town cut off from rest of state by flood',0
+'Reid land deal under scrutiny',0
+'Hurricane Paul Weakens To Tropical Storm',33
+'Dow hits new record, eyes 12,000',49
+'Senator Says U.S. Should Rethink Iraq Strategy',30
+'New Indonesia Calamity, a Mud Bath, Is Man-Made',0
+'Women Face Greatest Threat of Violence at Home, Study Finds',0
+'Stars scuffle on \'Grey\'s Anatomy\'',0
+'Marine killed in fighting west of Baghdad',0
+'Prestige has magic touch',31
+'Manning inspires Giants to victory in Dallas',44
+'Three drivers had reason to be proud in Brazil',44
+'Rice, in Baghdad, Insists That Iraqis Are',0
+'Ex-Virginia gov not running for president',0
+'We were \'arrogant and stupid\' over Iraq, says US diplomat',23
+'Goal delight for Sheva',93
+'Cohn gunman jailed for 36 years',27
+'Budapest calm after night of violent protests',18
+'On Educating Sexes Separately',0
+'Spanish journalist seized in Gaza',0
+'Tensions as Hungary marks uprising',0
+'Putin vows to tackle illegal immigration',0
+'China Successfully Launches Two Satellites',91
+'Cher auction fetches double pre-sale estimates',45
+'Deaths linked to flu vaccine',0
+'Brazil Air Force Cites Faults and Confusion in Fatal Crash',0
+'Pot smokers may avoid Alzheimer\'s, study says',10
+'Kate is marrying Doherty',71
+'Sri Lanka clashes kill 129 troops',0
+'Turkish Writers Say Efforts to Stifle Speech May Backfire',8
+'Russian ship sinks, 18-member crew missing',0
+'A Mix of Oil and Environmentalism',0
+'Ashton Kutcher tells secret to Ryan Seacrest',8
+'Questions on credit card safety',0
+'Flooding washes out road to Valdez, Alaska',0
+'Toddler died from tainted spinach',0
+'Google to unveil election mashup',10
+'Warner will not run in \'08',0
+'Bombers kill shoppers',0
+'Amish schoolhouse torn down',0
+'Full recovery expected for marathon winner',89
+'China launches two satellites into orbit',30
+'Growing Unarmed Battalion in Qaeda Army Is Using Internet to Get the Message Out',0
+'Kentucky seeks alcohol huffing ban',32
+'Man admits UK-US terror bomb plot',0
+'Madonna\'s new baby\'s daddy didn\'t realize adoption was `for good\'',9
+'Madonna\'s New Tot \'Happy at Home\' in London',63
+'U.S. Warns North Koreans About Nuclear Test',0
+'Briton admits U.S. bomb plot role',0
+'Active peace brings the promise of development',87
+'Equipment on Plane in Brazil Collision May Have Been Faulty',0
+'Iraqi Journalists Add Laws to List of Dangers',0
+'Vegetables May Boost Brain Power in Older Adults',38
+'Chefs not counting calories, study finds',0
+'Britain to Limit Workers from Romania, Bulgaria',0
+'Pair of Satellites Will Document Sun in 3-D',43
+'Dow flirts with record highs again',67
+'Amish killings school demolished',0
+'Appeal by Chinese Researcher for Times May Soon Be Heard',8
+'Seduced by Snacks? No, Not You',4
+'$10,000 poetry prize awarded',86
+'Abbas condemns Israeli massacre in northern Gaza Strip',0
+'We\'re a pretty kind \'bully\'',13
+'Combative Bush Releases Parts of Terror Study',0
+'Iran\'s president urges higher birth rate',2
+'Scientists discover miracle in the depths',21
+'Bush Insists Troops Stay in Iraq, Predicts Midterm Victory',6
+'Squirrel jumps boy in park; rabies suspected',0
+'Cooking Defines Sephardic Jews at Sukkot',49
+'4th person dies after receiving flu shot',0
+'Charlie Sheen to become highest-paid sitcom star',54
+'Toddler died from E. coli tainted spinach',0
+'Game on! London exhibition celebrates the history of video games',70
+'Who are you calling fat?',0
+'UK announces immigration restrictions',0
+'Dad locked up son, watched on TV, police say',0
+'Sony Hates Europeans, Will Prevent The Importing of PS3',0
+'Bad reasons to be good',15
+'Lily Allen wins web music award',93
+'United Finds Good Connection in Win',63
+'Israeli Bomblets Plague Lebanon',0
+'Commentary: Minutemen have a right to be idiotic',2
+'An Old Letter Casts Doubts on Iran\'s Goal for Uranium',8
+'Friends for Life: An Emerging Biology of Emotional Healing',87
+'No evidence of ice reserves on the moon',0
+'U.S. Weighs Sanctions Against North Korea',0
+'How to Prevent Iraq From Getting Even Worse',0
+'Nails-on-chalkboard study earns Ig',3
+'\'Deep regret\' for ex-HP exec',0
+'\'Opportunity\' knocks on geologist\'s dream crater',13
+'\'Runway\': Making Good Without Making Nice',22
+'A Picture and A Thousand Words',0
+'Presto! He\'s Batman, then magic man',30
+'Parachutist dies at bridge-jump festival',6
+'PM: Havana deal a good experiment',34
+'Slain Amish girls laid to rest',0
+'Nicole Kidman asks dad to help stop husband\'s drinking',0
+'Kim Osorio Wins Sexual Harrassment Suit Against The Source',36
+'Tailors and housewives busy as Muslims celebrate Eid',54
+'Gunman \'fine\' before shooting',0
+'Student starts white men\'s club on campus',0
+'Bad weather slows S.Korean search for Russian ship',0
+'Italy drops Sicily bridge plans',0
+'Griffiths scorns Withnail \'play\'',4
+'Photographer kidnapped in Gaza',0
+'Kurdish Lawmaker Killed in an Attack in Baghdad',0
+'In God\'s Name: Religion-Based Tax Breaks: Housing to Paychecks to Books',10
+'Bucs find a new kick in life',20
+'Women in their 60s \'are perfectly good mothers\'',24
+'Apple set for massive market gains',26
+'Google To Launch Yet Another Search Tool',21
+'Official laughs for Borat',34
+'Iraqi Linked to Sunni Bloc Is Held in Plot, Military Says',0
+'Military Officials Add to U.S. Criticism of Iraq\'s Government',30
+'Bangladesh ferry sinks, 15 dead',0
+'Disturbing finds in child sex raids',0
+'Report criticises US press freedoms',21
+'Sudan urges UN to replace its special envoy',0
+'Peter Pan flies into chapter two',25
+'Dead Bachelors in Remote China Still Find Wives',20
+'Teacher in Hiding After Attack on Islam Stirs Threats',0
+'Israel insists on Lebanon overflights',0
+'Gunmen kill 11 in Iraq TV raid',0
+'Citing Spy Agencies\' Study, Democrats Seek Iraq Changes',33
+'Did Viking Probes Miss Life on Mars?',0
+'Mortar assault leaves at least 18 dead',0
+'Britain to restrict immigrants from new EU members',0
+'Waste plant fire forces 5,000 to evacuate',6
+'Genghis Khan Beer? Mongolia Grimaces',15
+'Cher\'s dress, car, bed have new owners',17
+'Fitness: Bodies in Motion, Clean and Sober',64
+'Russian ship sinks in Pacific',0
+'Scientists create first cloaking device',17
+'Three found alive from missing Russian ship -report',75
+'Trailblazing trio protects City by the Bay',29
+'Police warn of child exploitation online',0
+'Yankee Dies in Plane Crash, Official Says',0
+'German Chief Forges Accord on Financing Health Care',33
+'Tumor Types May Explain Survival Rates for Cancer',14
+'\'Dr. McDreamy\' choked in \'Grey\'s\' scuffle',0
+'Making peace from victory over poverty',63
+'Hungary police tackle violent protestors',3
+'Amateur rocket scientists reach for space',12
+'Nigeria hostage feared dead is freed',66
+'Hurricane Paul nears Category 3 status',0
+'Hacker unlocks Apple music download protection',25
+'Ex-JonBenet suspect: Child porn case dropped',4
+'Costner appeals in casino wrangle',0
+'Lies, damned lies, and divorce',0
+'Confusion Reigns In the Expanding Digital World',0
+'Pit bulls jump miniature pony, leave her bloody',0
+'Dem leader\'s $1 million land deal under scrutiny',6
+'Cher items snapped up at auction',18
+'Sony apologises for global battery recall',0
+'Probe under way in Yankee crash',8
+'Tropical Storm Paul\'s Outer Bands Hit Mexico\'s Baja California',0
+'College tuition continues climbing',0
+'Madonna adoption bid approved',48
+'Pamuk wins Nobel Literature prize',89
+'War is close, Ethiopia tells Somali rebels',12
+'Beating poverty in a small way',32
+'Las Vegas honour for tiger pair',77
+'Moderate drinking reduces men\'s heart attack risk',38
+'Celebrities Protest Malibu Gas Facility',27
+'Vegetables, not fruit, slow brain decline',26
+'Life on Mars? Maybe We Missed It',11
+'Kentucky wants to ban alcohol inhalers',5
+'Israel admits using phosphorous shells in Lebanon',0
+'Martian Life Could Have Evaded Detection by Viking Landers',0
+'Dating difficult for Harry Potter',0
+'Poison Pill to Swallow: Hawks Hurting After Loss to Vikes',0
+'School ends football season after 0-4 start',0
+'Perfect lives lose their focus',34
