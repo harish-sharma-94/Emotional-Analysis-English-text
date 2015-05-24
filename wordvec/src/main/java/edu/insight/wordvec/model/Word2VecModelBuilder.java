@@ -16,8 +16,6 @@ import org.deeplearning4j.util.SerializationUtils;
 import edu.insight.wordvec.otdf.OTDFXmlReader;
 
 public class Word2VecModelBuilder {
-	
-	
 
 	public static void main(String[] args){		
 		OTDFXmlReader otdfXmlReader = new OTDFXmlReader(args[0]);
@@ -31,7 +29,7 @@ public class Word2VecModelBuilder {
 		try {
 			TokenizerFactory t;			
 			t = new UimaTokenizerFactory();
-			Word2Vec vec = new Word2Vec.Builder().layerSize(350).windowSize(5).iterate(iter).tokenizerFactory(t).build();
+			Word2Vec vec = new Word2Vec.Builder().minWordFrequency(40).layerSize(500).windowSize(10).iterate(iter).tokenizerFactory(t).build();			
 			vec.fit();
 			SerializationUtils.saveObject(vec, new File(args[1]));
 		} catch (ResourceInitializationException e1) {
