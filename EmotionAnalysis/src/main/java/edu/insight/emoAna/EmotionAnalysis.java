@@ -26,7 +26,7 @@ public class EmotionAnalysis {
 		File file = new File("src/main/resources/headlineEmotions.txt");
 		FileWriter fw = new FileWriter(file);
 		BufferedWriter bw= new BufferedWriter(fw);
-		
+
 		XMLDataReader reader = new XMLDataReader();
 		idHeadline = reader.set();
 
@@ -45,8 +45,14 @@ public class EmotionAnalysis {
 					String word = headlineWords[i].toLowerCase().trim();
 					word = word.replaceAll("[^a-z]", "");
 					System.out.println(word);
-					String lemmaword = lemma.lemmatize(word);
-					ISynset synset = wordsyn.wordSynsets(lemmaword);
+					String lemmaWord = lemma.lemmatize(word);
+					if("".equals(lemmaWord.trim())){
+						continue;
+					}
+					if("get".equalsIgnoreCase(lemmaWord)){
+						System.out.println("harish");
+					}
+					ISynset synset = wordsyn.wordSynsets(lemmaWord);
 					sco = 0.0;
 					if(synset == null) {
 						System.out.println("abcddfsdgfjsarklgjdsfioghdasfoigas");
@@ -65,9 +71,9 @@ public class EmotionAnalysis {
 				bw.write(id + "\t" + headlinescore + "\n");
 			}
 		}
-		
+
 		bw.close();
 		fw.close();
-		
+
 	}
 }
