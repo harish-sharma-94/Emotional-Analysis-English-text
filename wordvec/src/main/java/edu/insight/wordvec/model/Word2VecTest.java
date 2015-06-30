@@ -21,7 +21,7 @@ public class Word2VecTest {
 	}
 
 	public static void main(String[] args) throws IOException {
-		File file =  new File("/home/harish/wikiWord2Vec.model") ;
+		File file =  new File("src/main/resources/wikiWord2Vec.model") ;
 		Word2Vec vec = SerializationUtils.readObject(file);
 		//System.out.println("computer" + "\t" + "desktop" + vec.similarity("computer", "desktop"));
 		String path = "/home/harish/workspace/mixedemotions/classifier/src/main/resources/Semeval  2007/trial/affectivetext_trial.xml";

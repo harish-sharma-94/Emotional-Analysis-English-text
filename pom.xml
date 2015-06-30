@@ -45,5 +45,11 @@
 		<module>wordvec</module>
     <module>dsm</module>
     <module>vad</module>
+    <module>StanfordcorenNLP</module>
+    <module>wordnet</module>
+    <module>edu.insight.ESA</module>
+    <module>ESA</module>
+    <module>EmoAnalysisWordnetESa</module>
+    <module>EmotionAnalysis</module>
 	</modules>
 </project>
